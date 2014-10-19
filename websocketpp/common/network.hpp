@@ -73,7 +73,7 @@ inline uint64_t htonll_i(uint64_t src) {
 }
 
 inline uint64_t ntohll_i(uint64_t src) {
-    return htonll(src);
+    return htonll_i(src);
 }
 
 } // net
